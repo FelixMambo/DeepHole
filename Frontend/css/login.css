@@ -1,14 +1,48 @@
 .login-container {
     text-align: center;
-    width: 300px;
 }
 
 .caixa {
-    background-image: url("../assets/images/ryan-klaus-TliweUwl4Bw-unsplash");
+    background-image: url("../assets/images/ryan-klaus-TliweUwl4Bw-unsplash.jpg");
     border-radius: 10px;
-    color: white;
+
+    width: 350px;
+    margin: 80px auto;
+    padding: 20px;
+    background: rgba(173, 216, 230, 0.8);
+    border-radius: 10px;
 }
 
 body {
     background-image: url("../assets/images/stars.jpg");
+    color: whitesmoke;
+    font-family: "Nasalization", sans-serif;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.entrar {
+    background-image: url("../assets/images/stars.jpg");
+    color: whitesmoke;
+    border: none;
+    padding: 10px 135px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.username,
+.password {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.a {
+    font-family: "Nasalization", sans-serif;
+    color: whitesmoke;
+    letter-spacing: 1px;
 }
